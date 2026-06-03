@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(253, 234, 237);
+}
+
+.registerForm{
+    background-color: white;
+    width: 50%;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding:30px;
+}
+.registerForm h1{
+    color: red;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+}
+sup{
+    color: red;
+}
+
+input.textDemo{
+    background-color: bisque;
+    padding: 5px;
+}
+input:focus{
+    background-color: aquamarine;
+}

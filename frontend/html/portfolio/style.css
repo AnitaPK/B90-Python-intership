@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.userInfo{
+    display: flex;
+}
+.leftDiv{
+    flex: 1;
+    padding: 4rem;
+}
+.leftDiv h1{
+    /* add your code  */
+}
+.leftDiv p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+.btn:hover{
+    background-color: rgb(252, 190, 76);
+    cursor: pointer;
+}
+.rightDiv{
+    flex: 1;
+}
+
+.rightDiv img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/* .demoOne{
+    width: 300px;
+    border: 5px solid black;
+    padding: 10px;
+} */
