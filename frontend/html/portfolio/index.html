@@ -1,26 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name</title>
-    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <section>
+    <div id="IAMTOP"></div>
+    <nav>
+        <div class="Navbar">
+            <div><a href="#" class="navItem navItemList">Home</a></div>
+            <div><a href="#projectsSec" class="navItem navItemList">Projects</a></div>
+            <div><a href="#perInfo" class="navItem navItemList">Personal Info</a></div>
+            <div><a href="#contactMEEE" class="navItem navItemList">Contact Me</a></div>
+            <div><a href="#" class="navItem">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="navItem">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="navItem">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <section >
         <div class="userInfo">
             <div class="leftDiv">
-                <h1 >Your Name</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi saepe facere architecto voluptatibus pariatur quas fugiat, deleniti at, repudiandae voluptatum ex? Esse earum dolore cumque!</p>
-            <button class="btn">Click for more info</button>
+                <h1>Your Name</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi saepe facere architecto
+                    voluptatibus pariatur quas fugiat, deleniti at, repudiandae voluptatum ex? Esse earum dolore cumque!
+                </p>
+                <button class="btn">Click for more info
+
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
             </div>
             <div class="rightDiv">
-                <img src="../assets/artImg.jpg" />
+                <img src="./assets/user.png" />
             </div>
             <!-- <div class="demoOne">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius impedit quibusdam porro nihil perspiciatis consequatur ipsa, aperiam eum fugiat. Itaque, laboriosam dolorum consequuntur alias aliquam voluptates quasi magni maxime!
             </div> -->
         </div>
     </section>
+
+
+    <section id="projectsSec">
+        <h1 class="HeadingSection">Projects ...</h1>
+        <div class="project3">
+            <div class="project">
+                <img src="./assets/figma.png" />
+                <h1>UI / UX project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, voluptas! Nihil quas nostrum
+                    laboriosam minima esse fugiat molestiae voluptate necessitatibus!</p>
+                <button class="btn">Live Demo</button>
+                <button class="btn">Source Code</button>
+            </div>
+            <div class="project">
+                <img src="./assets/figma.png" />
+                <h1>UI / UX project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, voluptas! Nihil quas nostrum
+                    laboriosam minima esse fugiat molestiae voluptate necessitatibus!</p>
+                <button class="btn">Live Demo</button>
+                <button class="btn">Source Code</button>
+            </div>
+            <div class="project">
+                <img src="./assets/figma.png" />
+                <h1>UI / UX project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, voluptas! Nihil quas nostrum
+                    laboriosam minima esse fugiat molestiae voluptate necessitatibus!</p>
+                <button class="btn">Live Demo</button>
+                <button class="btn">Source Code</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="perInfo">
+        <h1 class="HeadingSection">Personal Info ...</h1>
+
+        <div class="perInfo">
+            <pre>
+                  email: fgh@hjk.nam 
+                  Contact :1234567890 
+                  address : <address>
+                    dfg ghjfgh rtyu  <br />
+                    fgh, fghjghj , 567890 <br />
+                  </address>
+        </pre>
+        </div>
+    </section>
+    <section id="contactMEEE">
+        <h1 class="HeadingSection">Contact Me ...</h1>
+        <div class="registerForm">
+
+            <form onsubmit="" method="post">
+                <!-- <label for="userName">Name<sup>*</sup>:</label> -->
+                <input class="textDemo" type="text" id="userName" required name="fullName"
+                    placeholder="Enter your name" />
+                <br />
+                <br />
+
+                <!-- <label for="userEmail">Email</label> -->
+                <input class="textDemo" type="email" id="userEmail" name="userEmail"
+                    placeholder="enter a valid email" />
+                <br />
+                <br />
+
+                <textarea rows="10" cols="73" class="textDemo"></textarea>
+
+                <input type="submit" class="btn centerBTN">
+            </form>
+    </section>
+
+
+    <footer style="padding: 20px; text-align: center;">Copyright to your name</footer>
+
+
+    <div class="topArrow">
+        <a href="#IAMTOP" class="navItem">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
+
+
+
+
 </body>
+
 </html>

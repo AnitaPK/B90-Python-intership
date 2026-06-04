@@ -8,9 +8,35 @@ body{
     background-color: black;
     color: white;
 }
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #1B1B1B;
+    padding: 15px ;
+    border-radius: 15px;
+}
+
+.navItem:link{
+    color: #9C9C9C;
+text-decoration: none;
+font-size: x-large;
+}
+.navItemList:hover{
+    border-bottom: 1px solid #9C9C9C;
+}
+.navItem:active{}
+.navItem:visited{
+    color: #9C9C9C;
+}
 
 .userInfo{
     display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
 }
 .leftDiv{
     flex: 1;
@@ -18,16 +44,25 @@ body{
 }
 .leftDiv h1{
     /* add your code  */
+    /* text-align: center; */
+    font-size: 48px;
+    text-shadow: 3px 3px 4px red, 5px 5px 3px orange;
+    margin-bottom: 30px;
 }
 .leftDiv p{
     line-height: 1.6;
     margin-bottom: 10px;
+    /* width: 70%; */
+    font-size: larger;
+    margin-bottom: 30px;
+
 }
 .btn{
     background-color: orange;
     padding: 10px 20px;
     border-radius: 5px;
     border: 0;
+    font-size: larger;
 }
 .btn:hover{
     background-color: rgb(252, 190, 76);
@@ -38,12 +73,91 @@ body{
 }
 
 .rightDiv img{
+    display: block;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 /* .demoOne{
     width: 300px;
     border: 5px solid black;
     padding: 10px;
 } */
+
+.HeadingSection{
+ margin: 30px 0 20px 12rem;
+ font-size: 48px;
+ margin-bottom: 30px;   
+}
+
+.project3{
+    display: flex;
+    justify-content: space-around;
+}
+.project{
+    width: 18rem;
+}
+.project img{
+    border-radius: 9px 9px 0 0;
+}
+.project h1{
+    margin: 10px;
+}
+.project p{
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* add code for personal info   */
+
+
+
+
+.registerForm{
+    background-color: #1B1B1B;
+    width: 30%;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding:30px;
+}
+
+
+label{
+    font-size: 20px;
+}
+sup{
+    color: red;
+}
+
+input.textDemo{
+    background-color: white;
+    padding: 9px;
+    border: 0;
+    font-size: larger;
+    border-radius: 9px;
+    width: 100%;
+}
+input:focus{
+    background-color: aquamarine;
+}
+.centerBTN{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+.topArrow{
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 13px;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+}
+
