@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+        .moveBox{
+            transform: translate(300px, 200px);
+        }
+        .RotateBox{
+            transform: rotateY(45deg);
+        }
+        .scaleBox:hover{
+            transform: scale(1.5,1.5);
+        }
+        .transBoxOne{
+            transition: width 4s, height 6s, background-color 5s;
+        }
+        .transBoxOne:hover{
+            width: 300px;
+            height: 600px;
+            background-color: blue;
+        }
+        .animxBoxOne{
+            animation: animxFirst 1s 3s infinite;
+        }
+        @keyframes animxFirst{
+            0%{background-color: pink;}
+            25%{background-color: red; transform: scale(0.2,0.2);}
+            50%{background-color: brown; transform: scale(1,1);}
+            75%{background-color: aquamarine;transform: scale(0.2,0.2);}
+            100%{background-color: darkgreen;transform: scale(1,1);}
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box moveBox"></div>
+    <div class="box RotateBox"></div>
+    <div class="box scaleBox"></div>
+    <div class="box transBoxOne"></div>
+    <div class="box animxBoxOne"></div>
+
+
+
+</body>
+</html>
