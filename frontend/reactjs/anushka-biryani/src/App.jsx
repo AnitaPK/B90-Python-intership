@@ -6,6 +6,10 @@ import './App.css'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Dishes  from './components/Dishes'
+import Conatctus from './components/Conatctus'
+import AboutUs from './components/AboutUs'
+import Variety from './components/Variety'
+import Footer from './components/Footer'
 
 function App() {
   const biryanis = [
@@ -116,6 +120,10 @@ function App() {
       <Header></Header>
       <Navbar />
       <Dishes dishes={biryanis}/>
+      <Variety />
+      <Conatctus />
+      <AboutUs />
+      <Footer />
     </>
   )
 }
