@@ -1,5 +1,6 @@
 import React from 'react'
 import bLOGO from '../assets/logoBiryani.jpeg'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -14,17 +15,17 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Variety</a>
+          <Link className="nav-link" to="/variety">Variety</Link>
         </li>
         
         <li className="nav-item">
-          <a className="nav-link " >About US</a>
+          <Link className="nav-link " to='/about-us' >About US</Link>
         </li>
            <li className="nav-item">
-          <a className="nav-link " >Conatct US</a>
+          <Link className="nav-link " to='/contact-us'>Conatct US</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">

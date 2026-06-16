@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Dishes = ({ dishes }) => {
     return (
@@ -8,11 +9,12 @@ const Dishes = ({ dishes }) => {
                 <div className="row">
                     {
                         dishes.map((d, i) => (
-                            <div className="col">
+                            <div className="col" key={i}>
                                 <div className="card" style={{width: "18rem"}}>
+                                    <Link to={`/detail-info/${d.id}`}>
                                     <img src={d.image} className="card-img-top" alt="..."
                                     style={{height:"200px"}}
-                                    />
+                                    /></Link>
                                         <div className="card-body bg-secondary">
                                             <h5 className="card-title">{d.title}</h5>
                                             <p className="card-text">{d.ingredients}</p>
