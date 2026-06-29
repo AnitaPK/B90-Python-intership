@@ -50,3 +50,21 @@ while(True):
         division(num1,num2)
     else:
         print("Enter correct choice...")
+    
+
+1 show details of your system using os module 
+ 1. display current workink directory 
+ 2. display all files and folders in that directory 
+
+2 use platform module to display 
+    1. Operation system Name
+    2. Processor
+    3. Python version
+
+3 use the datetime module to create digital Clock 
+    display 
+        1. Current Date
+        2. Current Time 
+        3. Current Day
+
+
